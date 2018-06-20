@@ -1,0 +1,94 @@
+body {
+    background-color:black;
+    color:gray;
+    }
+
+header, main, nav, footer {
+    text-align: center;
+}    
+
+nav a { /* links within nav containter */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* links are blue by default */
+}
+nav a:hover{ /* pseudo class */ 
+    border-bottom:2px red solid;
+    font-size: 2em;
+    transition: .9s; /* transition effect* */
+}
+hr {
+    width:50%;
+}
+
+#me  {
+    border-radius: 50%;
+    float: left;
+    padding-left: 200px;
+}
+
+#welcomeText {
+    font-size: 1.5em;
+    padding-right: 200px;
+    text-align: left;
+    color: red;
+}
+
+footer {
+    font-size: 10px;
+    clear: left;
+    color: white;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: red;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+/* about */
+
+table {
+    margin: 0px auto;
+}
+
+td {
+    padding-right:10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: black;
+}
+
+#table-header {
+    background-color: #ef0000;
+}
+
+#content {
+    color: white;
+}
+
+.table-row {
+    background-color: #990000 ;
+}
+
+ul {
+    text-align: left;
+    padding-left: 450px;
+}
+
+.hobby {
+    color:red;
+}
+
+
+
+/* Contact */
+
+#googleForm {
+    text-align: center;
+}
