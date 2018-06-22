@@ -1,0 +1,121 @@
+body {
+    background-color:Indigo;
+    color:gray;
+    }
+
+header, main, nav, footer {
+    text-align: center;
+}    
+
+header {
+    color: orange;
+}
+
+i {
+    color: orange;
+}
+
+nav a { /* links within nav containter */
+    padding:15px;
+    padding-bottom:4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /* links are blue by default */
+}
+nav a:hover{ /* pseudo class */ 
+    border-bottom:2px white solid;
+    font-size: 2em;
+    transition: .2s; /* transition effect* */
+}
+hr {
+    width:75%;
+}
+
+h2 {
+    text-shadow: 2px 2px black; /* NEW */
+
+}
+
+#malwareImg {
+    padding-top: 75px;
+    border-radius: 50%;
+    float: left;
+    padding-left: 175px;
+}
+#overviewText {
+
+    font-size: 1.5em;
+    padding-right: 200px;
+    padding-left: 200px;
+    color: white;
+}
+
+footer {
+    font-size: 10px;
+    clear: left;
+    color: gray;
+}
+
+
+/* types */
+
+.typesofMalware {
+   color: orange; 
+   
+}
+
+ul {
+   color:white; 
+}
+
+#trojanHorseImg {
+    border-radius: 50%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#typesofMalwareText {
+    font-size: 1.5em;
+    padding-right: 200px;
+    text-align: left;
+    color: white;
+}
+
+#links {
+    text-align: center;
+    color: orange;
+
+}
+
+
+/* History */
+#historyText {
+    font-size: 1.5em;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px dotted orange;
+}
+
+#creeperwormImg {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* Protection */
+#protectionText {
+    font-size: 1.5em;
+    padding-left: 150px;
+    text-align: right; 
+    color: white;
+}
+
+#antivirusImg {
+    border-radius: 50%;
+    padding-top: 40px;
+    padding-right: 100px;
+    float: right;
+}

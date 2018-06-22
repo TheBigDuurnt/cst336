@@ -13,6 +13,10 @@ echo "Austin Walker's CST336 Internet Programming";
     <h1> Labs </h1>
     
         <a href="labs/lab1/"> Lab 1 </a>
+        
+    <h1> Homework </h1>
+    
+        <a href="hw/hw1/"> Homework 1 </a>
     
 </body>
 </html>
