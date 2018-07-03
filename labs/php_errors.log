@@ -1,3 +1,7 @@
-[23-Jun-2018 21:01:54 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/index.php:10) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 47
-[23-Jun-2018 21:01:54 UTC] PHP Stack trace:
-[23-Jun-2018 21:01:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[03-Jul-2018 00:14:33 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 60
+[03-Jul-2018 00:14:33 UTC] PHP Stack trace:
+[03-Jul-2018 00:14:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[03-Jul-2018 00:14:41 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 60
+[03-Jul-2018 00:14:41 UTC] PHP Stack trace:
+[03-Jul-2018 00:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[03-Jul-2018 00:14:41 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:60
