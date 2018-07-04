@@ -67,7 +67,7 @@ function displayResults() {
             // check to see if the most recent post request has the same itemId
             // If so display a differnt button
             if ($_POST['itemId'] == $itemId) {
-                echo "<td><button class='btn btn-warning'>Added</button></td>";
+                echo "<td><button class='btn btn-success'>Added</button></td>";
             } else {
                 echo "<td><button class='btn btn-warning'>Add</button></td>";
             }
