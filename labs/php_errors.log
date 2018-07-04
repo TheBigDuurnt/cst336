@@ -1,7 +1,40 @@
-[03-Jul-2018 00:14:33 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 60
-[03-Jul-2018 00:14:33 UTC] PHP Stack trace:
-[03-Jul-2018 00:14:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
-[03-Jul-2018 00:14:41 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 60
-[03-Jul-2018 00:14:41 UTC] PHP Stack trace:
-[03-Jul-2018 00:14:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
-[03-Jul-2018 00:14:41 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:60
+[04-Jul-2018 19:07:10 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:07:10 UTC] PHP Stack trace:
+[04-Jul-2018 19:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:07:10 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:07:12 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:07:12 UTC] PHP Stack trace:
+[04-Jul-2018 19:07:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:07:12 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:07:39 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:07:39 UTC] PHP Stack trace:
+[04-Jul-2018 19:07:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:07:39 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:07:40 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:07:40 UTC] PHP Stack trace:
+[04-Jul-2018 19:07:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:07:40 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:07:43 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:07:43 UTC] PHP Stack trace:
+[04-Jul-2018 19:07:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:07:43 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:07:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:07:44 UTC] PHP Stack trace:
+[04-Jul-2018 19:07:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:07:44 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:08:21 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:08:21 UTC] PHP Stack trace:
+[04-Jul-2018 19:08:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:08:21 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:08:23 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:08:23 UTC] PHP Stack trace:
+[04-Jul-2018 19:08:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:08:23 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:09:31 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:09:31 UTC] PHP Stack trace:
+[04-Jul-2018 19:09:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:09:31 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
+[04-Jul-2018 19:09:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/scart/index.php on line 38
+[04-Jul-2018 19:09:34 UTC] PHP Stack trace:
+[04-Jul-2018 19:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/scart/index.php:0
+[04-Jul-2018 19:09:34 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/scart/index.php:38
