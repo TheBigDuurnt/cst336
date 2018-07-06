@@ -33,13 +33,13 @@
             <!-- Form 3 -->
             <fieldset>
                 <legend>Choose a Title:</legend>
-                <input id="developer" type="radio" name="title" placeholder="Developer" value="developer"/>
+                <input id="developer" type="radio" name="title" placeholder="Developer" value="developer" <?php if($_GET['title'] == "developer") echo "checked";?>/>
                 <label for="developer">Developer</label><br>
             
-                <input id="jobSeeker" type="radio" name="title" placeholder="Job Seeker" value="jobSeeker"/>
+                <input id="jobSeeker" type="radio" name="title" placeholder="Job Seeker" value="jobSeeker"<?php if($_GET['title'] == "jobSeeker") echo "checked";?>/>
                 <label for="jobSeeker">Job-Seeker</label><br>
             
-                <input id="student" type="radio" name="title" placeholder="Student" value="student"/>
+                <input id="student" type="radio" name="title" placeholder="Student" value="student" <?php if($_GET['title'] == "student") echo "checked";?>/>
                 <label for="student">Student</label><br>
             </fieldset>
             
@@ -47,25 +47,25 @@
             <!-- Form 4 -->
             <fieldset>
                 <legend>Choose your Favorite Animal:</legend>
-                <input id="cat" type="radio" name="animal" value="cat"/>
+                <input id="cat" type="radio" name="animal" value="cat" <?php if($_GET['animal'] == "cat") echo "checked";?>/>
                 <label for="cat">Cat</label><br>
             
-                <input id="dog" type="radio" name="animal" value="dog"/>
+                <input id="dog" type="radio" name="animal" value="dog" <?php if($_GET['animal'] == "dog") echo "checked";?>/>
                 <label for="dog">Dog</label><br>
             
-                <input id="chicken" type="radio" name="animal" value="chicken"/>
+                <input id="chicken" type="radio" name="animal" value="chicken" <?php if($_GET['animal'] == "chicken") echo "checked";?>/>
                 <label for="chicken">Chicken</label>
             </fieldset>
             
             <!-- Current Year -->
             <!-- Form 5 -->
             <label for="currentYear">Current Year?</label>
-            <select id="currentYear" name="year"  value="<?=$_GET['year']?>"/>
-            <option value="2016">2016</option>
-            <option value="2017">2017</option>
-            <option value="2018">2018</option>
-            <option value="2019">2019</option>
-            <option value="2020">2020</option>
+            <select id="currentYear" name="year"  value="<?=$_GET['year']?>" <?php if($_GET['year']) echo "checked";?>/>
+            <option value="2016" <?php if($_GET['year'] == "2016") echo "selected";?>>2016</option>
+            <option value="2017" <?php if($_GET['year'] == "2017") echo "selected";?>>2017</option>
+            <option value="2018" <?php if($_GET['year'] == "2018") echo "selected";?>>2018</option>
+            <option value="2019" <?php if($_GET['year'] == "2019") echo "selected";?>>2019</option>
+            <option value="2020" <?php if($_GET['year'] == "2020") echo "selected";?>>2020</option>
             </select>
         
             <!-- Submit --> 
