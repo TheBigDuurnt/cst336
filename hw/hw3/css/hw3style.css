@@ -1,0 +1,92 @@
+body {
+    background-color: gray;
+    color: black;
+}
+
+h1 {
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    color: Indigo;
+    font-size: 2.5em;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    text-align: center;
+    color:sienna;
+    text-shadow: 1px 1px black;
+}
+
+fieldset {
+    color: Indigo;
+}
+hr {
+    width:70%;
+}
+
+b {
+    
+    color: Indigo;
+    font-size: 1.2em;
+}
+
+i {
+    color: red;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    clear: left;
+    color: white;
+}
+
+form {
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    color:white;
+}
+
+strong {
+    color: red;
+}
+
+#biotext {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#businessCard {
+    width:500px;
+    margin: auto;
+    border: 3px solid black;
+    text-align: left;
+    background: white;
+}
+
+#nameText{
+    color: Indigo;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+#favPic {
+    float: left;
+
+}
+
+#titleText {
+    text-align: left;
+    color: red;
+}
+
+#yearText {
+    text-align: right;
+    padding-right: 25px;
+}
+
+#csumb {
+    border-radius: 50px;    
+}
+ 
