@@ -1,6 +1,6 @@
 <?php
 
-    include '../dbConnection.php';
+    include 'dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
     
@@ -8,11 +8,11 @@
     
     $sql = "SELECT *
             FROM om_product
-            NATURL JOIN om_purchase
+            NATURAL JOIN om_purchase
             WHERE productId = :pId";
             
     $np = array();
-    $np[':pID'] = $productId;
+    $np[':pId'] = $productId;
     
     $stmt = $conn->prepare($sql);
     $stmt->execute($np);  
@@ -31,3 +31,4 @@
     }
 
 ?>
+
