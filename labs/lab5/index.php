@@ -22,8 +22,8 @@ function displaySearchResults(){
     global $conn;
     
     if(isset($_GET['searchForm'])) { // checks whether user has submitted the form
-        
-        echo "<h3>Products Found: </h3>";
+        echo "<hr>";
+        echo "<h3><b>Products Found: </b></h3>";
         
         $sql = "SELECT * FROM om_product WHERE 1";
         
@@ -78,19 +78,21 @@ function displaySearchResults(){
     
     <head>
         <title> OtterMart Product Search</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+        <link href="css/lab5styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        
         <div>
+
             <h1> Ottermart Product Search</h1>
-            
+            <img id="csumbBanner" src="img/csumbBanner.jpg" alt="CSUMBBanner" width="400">
+            <br /><br /><br /><br />
         <form>
-            
-            Product: <input type="text" name="product" />
+            <fieldset>  
+            <b>Product:</b> <input type="text" name="product" />
             
             <br>
-            Category:
+            <b>Category:</b>
                 <select name="category">
                     <option value="">Select One</option>
                     
@@ -98,24 +100,38 @@ function displaySearchResults(){
                     
                 </select>
             <br>
-            Price: From <input type="text" name="priceFrom" size="7" />
+            <b>Price:</b> From <input type="text" name="priceFrom" size="7" />
                    To   <input type="text" name="priceTo" size="7" />
+            </fieldset>
             <br>
-            Order result by:
+            <fieldset>
+            <b> Order result by:</b>
             <br>
             
             <input type="radio" name="orderBy" value="price"/> Price <br>
             <input type="radio" name="orderBy" value="name"/> Name
-            
+            </fieldset>
             <br><br>
-            <input type="submit" value="Search" name="searchForm" />
+            <input id="submit" type="submit" value="Search" name="searchForm" />
         </form>
         
         <br />
         
         </div>
         
-        <hr>
+        
         <?= displaySearchResults() ?>
+        <br>
+        
+        <footer>
+        <hr>
+            CST 336. 2018&copy; Walker <br />
+            <strong>DISCLAIMER:</strong> The Information on this webpage is
+            used for academic purposes only! <br /><br />
+            <img id="csumb" src="img/csumb.png" alt="CSUMB" width="100">
+        
+        </footer>  
+        <br />
+        <br />
     </body>
 </html>
