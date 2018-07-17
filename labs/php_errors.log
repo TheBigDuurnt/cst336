@@ -71,3 +71,100 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php(25): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 25
+[16-Jul-2018 17:00:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/loginProcess.php on line 25
+[16-Jul-2018 18:24:40 UTC] PHP Warning:  include(dbConnectoin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 3
+[16-Jul-2018 18:24:40 UTC] PHP Stack trace:
+[16-Jul-2018 18:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:24:40 UTC] PHP Warning:  include(): Failed opening 'dbConnectoin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 3
+[16-Jul-2018 18:24:40 UTC] PHP Stack trace:
+[16-Jul-2018 18:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:24:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 5
+[16-Jul-2018 18:24:40 UTC] PHP Stack trace:
+[16-Jul-2018 18:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:25:56 UTC] PHP Warning:  include(dbConnectoin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 3
+[16-Jul-2018 18:25:56 UTC] PHP Stack trace:
+[16-Jul-2018 18:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:25:56 UTC] PHP Warning:  include(): Failed opening 'dbConnectoin.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 3
+[16-Jul-2018 18:25:56 UTC] PHP Stack trace:
+[16-Jul-2018 18:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:25:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 5
+[16-Jul-2018 18:25:56 UTC] PHP Stack trace:
+[16-Jul-2018 18:25:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:26:18 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 20
+[16-Jul-2018 18:26:18 UTC] PHP Stack trace:
+[16-Jul-2018 18:26:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:27:22 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 20
+[16-Jul-2018 18:27:22 UTC] PHP Stack trace:
+[16-Jul-2018 18:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:0
+[16-Jul-2018 18:39:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 43
+[16-Jul-2018 18:39:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 43
+[16-Jul-2018 18:41:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 43
+[16-Jul-2018 18:42:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php:43
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php(43): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab6/addProduct.php on line 43
+[16-Jul-2018 19:05:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:05:24 UTC] PHP Stack trace:
+[16-Jul-2018 19:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:05:24 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:56
+[16-Jul-2018 19:13:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:13:45 UTC] PHP Stack trace:
+[16-Jul-2018 19:13:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:13:45 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:13:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:13:53 UTC] PHP Stack trace:
+[16-Jul-2018 19:13:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:13:53 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:14:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:14:22 UTC] PHP Stack trace:
+[16-Jul-2018 19:14:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:14:22 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:24:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:24:24 UTC] PHP Stack trace:
+[16-Jul-2018 19:24:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:24:24 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:24:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:24:34 UTC] PHP Stack trace:
+[16-Jul-2018 19:24:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:24:34 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:24:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:24:47 UTC] PHP Stack trace:
+[16-Jul-2018 19:24:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:24:47 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:24:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:24:58 UTC] PHP Stack trace:
+[16-Jul-2018 19:24:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:24:58 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:26:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:26:29 UTC] PHP Stack trace:
+[16-Jul-2018 19:26:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:26:29 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:26:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:26:47 UTC] PHP Stack trace:
+[16-Jul-2018 19:26:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:26:47 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:26:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:26:56 UTC] PHP Stack trace:
+[16-Jul-2018 19:26:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:26:56 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[16-Jul-2018 19:26:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 35
+[16-Jul-2018 19:26:59 UTC] PHP Stack trace:
+[16-Jul-2018 19:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[16-Jul-2018 19:26:59 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79

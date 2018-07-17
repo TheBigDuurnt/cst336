@@ -18,7 +18,7 @@
             <?php
             
                 if($_SESSION['incorrect']) {
-                    echo "<p class = 'lead' id='error' stype='color:red'>";
+                    echo "<p class = 'lead' id='error' style='color:red'>";
                     echo "<strong>Incorrect Username or Password!</strong></p>";
                 }
             
