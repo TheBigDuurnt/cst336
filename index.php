@@ -17,7 +17,8 @@ echo "Austin Walker's CST336 Internet Programming";
         <a href="labs/lab3/"> Lab 3 </a> <br>
         <a href="labs/lab4/"> Lab 4 </a>
         <a href="labs/lab5/"> Lab 5 </a>
-        <a href="labs/lab6/"> Lab 6 </a>
+        <a href="labs/lab6/"> Lab 6 </a> <br>
+        <a href="labs/lab7/"> Lab 7 </a>
         
     <h1> Homework </h1>
     
