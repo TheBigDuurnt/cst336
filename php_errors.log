@@ -10,3 +10,33 @@
 [23-Jul-2018 21:48:39 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/final/index.php on line 32
 [23-Jul-2018 21:48:39 UTC] PHP Stack trace:
 [23-Jul-2018 21:48:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/index.php:0
+[25-Jul-2018 00:13:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'store'' in /home/ubuntu/workspace/cst336/final/php/dbConnection.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/php/dbConnection.php(16): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final/index.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/php/dbConnection.php on line 16
+[25-Jul-2018 00:14:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'store'' in /home/ubuntu/workspace/cst336/final/php/dbConnection.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/php/dbConnection.php(16): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final/index.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/php/dbConnection.php on line 16
+[25-Jul-2018 00:15:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'store'' in /home/ubuntu/workspace/cst336/final/php/dbConnection.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/final/php/dbConnection.php(16): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/final/index.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/final/php/dbConnection.php on line 16
+[25-Jul-2018 00:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'store'' in /home/ubuntu/workspace/cst336/CST336-Group-Final-master/php/dbConnection.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/CST336-Group-Final-master/php/dbConnection.php(16): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/CST336-Group-Final-master/index.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/CST336-Group-Final-master/php/dbConnection.php on line 16
+[25-Jul-2018 00:23:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'store'' in /home/ubuntu/workspace/cst336/CST336-Group-Final-master/php/dbConnection.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/CST336-Group-Final-master/php/dbConnection.php(16): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/CST336-Group-Final-master/index.php(4): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/CST336-Group-Final-master/php/dbConnection.php on line 16
