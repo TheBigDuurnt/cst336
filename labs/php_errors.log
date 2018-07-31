@@ -168,3 +168,81 @@ Stack trace:
 [16-Jul-2018 19:26:59 UTC] PHP Stack trace:
 [16-Jul-2018 19:26:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
 [16-Jul-2018 19:26:59 UTC] PHP   2. getCategories() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:79
+[31-Jul-2018 15:29:23 UTC] PHP Warning:  include(../Connection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 4
+[31-Jul-2018 15:29:23 UTC] PHP Stack trace:
+[31-Jul-2018 15:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 15:29:23 UTC] PHP Warning:  include(): Failed opening '../Connection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 4
+[31-Jul-2018 15:29:23 UTC] PHP Stack trace:
+[31-Jul-2018 15:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 15:29:33 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 4
+[31-Jul-2018 15:29:33 UTC] PHP Stack trace:
+[31-Jul-2018 15:29:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 15:29:33 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 4
+[31-Jul-2018 15:29:33 UTC] PHP Stack trace:
+[31-Jul-2018 15:29:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 15:36:18 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/labs/pets/dbConnection.php:3) in /home/ubuntu/workspace/cst336/labs/pets/dbConnection.php on line 3
+[31-Jul-2018 15:36:18 UTC] PHP Stack trace:
+[31-Jul-2018 15:36:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 15:36:18 UTC] PHP   2. getPetList() /home/ubuntu/workspace/cst336/labs/pets/pets.php:21
+[31-Jul-2018 15:38:10 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/labs/pets/dbConnection.php:3) in /home/ubuntu/workspace/cst336/labs/pets/dbConnection.php on line 3
+[31-Jul-2018 15:38:10 UTC] PHP Stack trace:
+[31-Jul-2018 15:38:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 15:38:10 UTC] PHP   2. getPetList() /home/ubuntu/workspace/cst336/labs/pets/pets.php:21
+[31-Jul-2018 16:53:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 4
+[31-Jul-2018 16:53:24 UTC] PHP Stack trace:
+[31-Jul-2018 16:53:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 16:57:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 28
+[31-Jul-2018 16:57:47 UTC] PHP Stack trace:
+[31-Jul-2018 16:57:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:02:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 28
+[31-Jul-2018 17:02:14 UTC] PHP Stack trace:
+[31-Jul-2018 17:02:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:04:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 28
+[31-Jul-2018 17:04:33 UTC] PHP Stack trace:
+[31-Jul-2018 17:04:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:06:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 30
+[31-Jul-2018 17:06:38 UTC] PHP Stack trace:
+[31-Jul-2018 17:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:10:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 30
+[31-Jul-2018 17:10:48 UTC] PHP Stack trace:
+[31-Jul-2018 17:10:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:11:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 30
+[31-Jul-2018 17:11:48 UTC] PHP Stack trace:
+[31-Jul-2018 17:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:12:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 30
+[31-Jul-2018 17:12:13 UTC] PHP Stack trace:
+[31-Jul-2018 17:12:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:12:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 30
+[31-Jul-2018 17:12:34 UTC] PHP Stack trace:
+[31-Jul-2018 17:12:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:20:15 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 5
+[31-Jul-2018 17:29:52 UTC] PHP Fatal error:  Call to undefined function getPictureURL() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 28
+[31-Jul-2018 17:29:52 UTC] PHP Stack trace:
+[31-Jul-2018 17:29:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:31:39 UTC] PHP Fatal error:  Call to undefined function getPictureURL() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 28
+[31-Jul-2018 17:31:39 UTC] PHP Stack trace:
+[31-Jul-2018 17:31:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:31:43 UTC] PHP Fatal error:  Call to undefined function getPictureURL() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 28
+[31-Jul-2018 17:31:43 UTC] PHP Stack trace:
+[31-Jul-2018 17:31:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:31:46 UTC] PHP Fatal error:  Call to undefined function getPictureURL() in /home/ubuntu/workspace/cst336/labs/pets/index.php on line 28
+[31-Jul-2018 17:31:46 UTC] PHP Stack trace:
+[31-Jul-2018 17:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/index.php:0
+[31-Jul-2018 17:44:39 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 3
+[31-Jul-2018 17:44:39 UTC] PHP Stack trace:
+[31-Jul-2018 17:44:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 17:44:39 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 3
+[31-Jul-2018 17:44:39 UTC] PHP Stack trace:
+[31-Jul-2018 17:44:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 17:44:39 UTC] PHP Fatal error:  Call to undefined function getPetList() in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 6
+[31-Jul-2018 17:44:39 UTC] PHP Stack trace:
+[31-Jul-2018 17:44:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 17:44:54 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 3
+[31-Jul-2018 17:44:54 UTC] PHP Stack trace:
+[31-Jul-2018 17:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 17:44:54 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 3
+[31-Jul-2018 17:44:54 UTC] PHP Stack trace:
+[31-Jul-2018 17:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
+[31-Jul-2018 17:44:54 UTC] PHP Fatal error:  Call to undefined function getPetList() in /home/ubuntu/workspace/cst336/labs/pets/pets.php on line 6
+[31-Jul-2018 17:44:54 UTC] PHP Stack trace:
+[31-Jul-2018 17:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/pets/pets.php:0
