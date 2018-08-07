@@ -26,7 +26,12 @@ echo "Austin Walker's CST336 Internet Programming";
         <a href="hw/hw1/"> Homework 1 </a>
         <a href="hw/hw2/"> Homework 2 </a>
         <a href="hw/hw3/"> Homework 3 </a>
-        <a href="hw/spaceInvaders/"> Homework 4 </a>
+        <a href="hw/spaceInvaders/"> Homework 4 </a> 
+        
+    <h1> Final Project </h1>
+        
+        <a href="CST336-Group-Final/"> Final </a>
+    
     
 </body>
 </html>

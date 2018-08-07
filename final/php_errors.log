@@ -1,0 +1,157 @@
+[04-Aug-2018 15:45:47 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 40
+[04-Aug-2018 15:46:58 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:46:58 UTC] PHP Stack trace:
+[04-Aug-2018 15:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:46:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:46:58 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:46:58 UTC] PHP Stack trace:
+[04-Aug-2018 15:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:46:58 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:46:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 33
+[04-Aug-2018 15:46:58 UTC] PHP Stack trace:
+[04-Aug-2018 15:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:46:58 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:33
+[04-Aug-2018 15:48:20 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:48:20 UTC] PHP Stack trace:
+[04-Aug-2018 15:48:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:48:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:48:20 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:48:20 UTC] PHP Stack trace:
+[04-Aug-2018 15:48:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:48:20 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:48:20 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 33
+[04-Aug-2018 15:48:20 UTC] PHP Stack trace:
+[04-Aug-2018 15:48:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:48:20 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:33
+[04-Aug-2018 15:49:40 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:49:40 UTC] PHP Stack trace:
+[04-Aug-2018 15:49:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:49:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:49:40 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:49:40 UTC] PHP Stack trace:
+[04-Aug-2018 15:49:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:49:40 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:49:40 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 33
+[04-Aug-2018 15:49:40 UTC] PHP Stack trace:
+[04-Aug-2018 15:49:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:49:40 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:33
+[04-Aug-2018 15:50:25 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:50:25 UTC] PHP Stack trace:
+[04-Aug-2018 15:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:50:25 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:50:25 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:50:25 UTC] PHP Stack trace:
+[04-Aug-2018 15:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:50:25 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:50:25 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 33
+[04-Aug-2018 15:50:25 UTC] PHP Stack trace:
+[04-Aug-2018 15:50:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:50:25 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:33
+[04-Aug-2018 15:50:32 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:50:32 UTC] PHP Stack trace:
+[04-Aug-2018 15:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:50:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:50:32 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:50:32 UTC] PHP Stack trace:
+[04-Aug-2018 15:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:50:32 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:50:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 33
+[04-Aug-2018 15:50:32 UTC] PHP Stack trace:
+[04-Aug-2018 15:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:50:32 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:33
+[04-Aug-2018 15:51:17 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:51:17 UTC] PHP Stack trace:
+[04-Aug-2018 15:51:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:51:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:51:17 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:51:17 UTC] PHP Stack trace:
+[04-Aug-2018 15:51:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:51:17 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:51:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 33
+[04-Aug-2018 15:51:17 UTC] PHP Stack trace:
+[04-Aug-2018 15:51:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:51:17 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:33
+[04-Aug-2018 15:51:49 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:51:49 UTC] PHP Stack trace:
+[04-Aug-2018 15:51:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:51:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:51:49 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 30
+[04-Aug-2018 15:51:49 UTC] PHP Stack trace:
+[04-Aug-2018 15:51:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:51:49 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:30
+[04-Aug-2018 15:51:49 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 33
+[04-Aug-2018 15:51:49 UTC] PHP Stack trace:
+[04-Aug-2018 15:51:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 15:51:49 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:33
+[04-Aug-2018 16:00:33 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 43
+[04-Aug-2018 16:00:33 UTC] PHP Stack trace:
+[04-Aug-2018 16:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:00:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:43
+[04-Aug-2018 16:00:33 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 43
+[04-Aug-2018 16:00:33 UTC] PHP Stack trace:
+[04-Aug-2018 16:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:00:33 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:43
+[04-Aug-2018 16:00:33 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 46
+[04-Aug-2018 16:00:33 UTC] PHP Stack trace:
+[04-Aug-2018 16:00:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:00:33 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:46
+[04-Aug-2018 16:01:37 UTC] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 41
+[04-Aug-2018 16:01:37 UTC] PHP Stack trace:
+[04-Aug-2018 16:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:01:37 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/cst336/final/finalProject/index.php:41
+[04-Aug-2018 16:01:37 UTC] PHP Warning:  mysql_connect(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 41
+[04-Aug-2018 16:01:37 UTC] PHP Stack trace:
+[04-Aug-2018 16:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:01:37 UTC] PHP   2. mysql_connect() /home/ubuntu/workspace/cst336/final/finalProject/index.php:41
+[04-Aug-2018 16:01:37 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 42
+[04-Aug-2018 16:01:37 UTC] PHP Stack trace:
+[04-Aug-2018 16:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:01:37 UTC] PHP   2. mysql_select_db() /home/ubuntu/workspace/cst336/final/finalProject/index.php:42
+[04-Aug-2018 16:01:37 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 42
+[04-Aug-2018 16:01:37 UTC] PHP Stack trace:
+[04-Aug-2018 16:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:01:37 UTC] PHP   2. mysql_select_db() /home/ubuntu/workspace/cst336/final/finalProject/index.php:42
+[04-Aug-2018 16:01:37 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 45
+[04-Aug-2018 16:01:37 UTC] PHP Stack trace:
+[04-Aug-2018 16:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:01:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:45
+[04-Aug-2018 16:01:37 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 45
+[04-Aug-2018 16:01:37 UTC] PHP Stack trace:
+[04-Aug-2018 16:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:01:37 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/cst336/final/finalProject/index.php:45
+[04-Aug-2018 16:01:37 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 48
+[04-Aug-2018 16:01:37 UTC] PHP Stack trace:
+[04-Aug-2018 16:01:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:01:37 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:48
+[04-Aug-2018 16:03:07 UTC] PHP Parse error:  syntax error, unexpected '"</option>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 49
+[04-Aug-2018 16:03:54 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 49
+[04-Aug-2018 16:06:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 48
+[04-Aug-2018 16:06:10 UTC] PHP Stack trace:
+[04-Aug-2018 16:06:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:06:10 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:48
+[04-Aug-2018 16:07:27 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 48
+[04-Aug-2018 16:07:27 UTC] PHP Stack trace:
+[04-Aug-2018 16:07:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:07:27 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:48
+[04-Aug-2018 16:07:42 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 48
+[04-Aug-2018 16:07:42 UTC] PHP Stack trace:
+[04-Aug-2018 16:07:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:07:42 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:48
+[04-Aug-2018 16:14:44 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 48
+[04-Aug-2018 16:14:44 UTC] PHP Stack trace:
+[04-Aug-2018 16:14:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:14:44 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:48
+[04-Aug-2018 16:22:30 UTC] PHP Parse error:  syntax error, unexpected '", lastName AS fullName FROM s' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 44
+[04-Aug-2018 16:45:08 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 53
+[04-Aug-2018 16:45:08 UTC] PHP Stack trace:
+[04-Aug-2018 16:45:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:45:08 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:53
+[04-Aug-2018 16:46:46 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 53
+[04-Aug-2018 16:46:46 UTC] PHP Stack trace:
+[04-Aug-2018 16:46:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/final/finalProject/index.php:0
+[04-Aug-2018 16:46:46 UTC] PHP   2. mysql_fetch_array() /home/ubuntu/workspace/cst336/final/finalProject/index.php:53
+[04-Aug-2018 16:54:10 UTC] PHP Parse error:  syntax error, unexpected '">Select One</option>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 53
+[04-Aug-2018 16:54:56 UTC] PHP Parse error:  syntax error, unexpected '">Select One</option>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 53
+[04-Aug-2018 16:56:56 UTC] PHP Parse error:  syntax error, unexpected '"> Select One </option>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 54
+[04-Aug-2018 16:57:22 UTC] PHP Parse error:  syntax error, unexpected '"> Select One </option>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final/finalProject/index.php on line 54
+[04-Aug-2018 17:21:39 UTC] PHP Parse error:  syntax error, unexpected '"</option>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/final/finalProject2/index.php on line 57
