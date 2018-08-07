@@ -30,7 +30,7 @@ echo "Austin Walker's CST336 Internet Programming";
         
     <h1> Final Project </h1>
         
-        <a href="CST336-Group-Final/"> Final </a>
+        <a href="Group-Final/"> Final </a>
     
     
 </body>
