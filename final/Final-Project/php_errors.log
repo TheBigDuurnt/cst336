@@ -1,0 +1,390 @@
+[26-Jul-2018 00:31:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' where username = 'candaya' AND password = '5bae372e69f5293eda5b478a2663f' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 31
+[26-Jul-2018 00:35:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin' where username = 'admin' AND password = '626e8934f9ce0e51ccc0bd5ca7985be' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 31
+[26-Jul-2018 00:37:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin' WHERE username = 'admin' AND password = '626e8934f9ce0e51ccc0bd5ca7985be' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 31
+[26-Jul-2018 00:42:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin' 
+            WHERE username = 'admin' 
+            AND password = '9d4e1' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 32
+[26-Jul-2018 00:43:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin' 
+            WHERE username = 'admin' 
+            AND password = '9d4e1' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:45:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin' 
+            WHERE username = 'admin' 
+            AND password = '9d4e1' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:45:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' 
+            WHERE username = 'candaya' 
+            AND password = '5ba' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:47:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''admin' 
+            WHERE username = 'admin' 
+            AND password = '9d4e1' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:48:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' 
+            WHERE username = 'candaya' 
+            AND password = SHA1' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:51:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' 
+            WHERE username = 'canday' 
+            AND password = SHA1(' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:52:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' 
+            WHERE username = 'candaya' 
+            AND password = SHA1' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:53:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' 
+            WHERE username = 'candaya' 
+            AND password = SHA1' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 34
+[26-Jul-2018 00:54:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 34
+[26-Jul-2018 00:54:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 34
+[26-Jul-2018 00:54:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 34
+[26-Jul-2018 00:56:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 33
+[26-Jul-2018 00:57:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' WHERE username = 'candaya' AND password = '5bae372e69f5293eda5b478a2663f' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 31
+[26-Jul-2018 01:04:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 31
+[26-Jul-2018 01:05:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users' WHERE username = 'candaya' AND password = '5bae372e69f5293eda5b478a2663f' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 31
+[26-Jul-2018 01:08:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/auth.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/auth.php on line 28
+[26-Jul-2018 02:59:13 UTC] PHP Fatal error:  Undefined class constant 'FETH_ASSOC' in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 15
+[26-Jul-2018 02:59:13 UTC] PHP Stack trace:
+[26-Jul-2018 02:59:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:0
+[26-Jul-2018 02:59:13 UTC] PHP   2. displayProducts() /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:18
+[26-Jul-2018 03:12:10 UTC] PHP Parse error:  syntax error, unexpected '!', expecting ',' or ';' in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 29
+[26-Jul-2018 04:32:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(name, description, price, category) VALUES ('First Pro', 'Da first', '999.89', ' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:60
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php(60): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 60
+[26-Jul-2018 04:33:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(name, description, price, category) VALUES ('First Pro', 'Da first', '999.89', ' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:61
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php(61): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 61
+[26-Jul-2018 04:33:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(name, description, price, category) VALUES ('First Pro', 'Da first', '999.89', ' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:61
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php(61): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 61
+[26-Jul-2018 23:19:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`store`.`cart`, CONSTRAINT `cart_ibfk_2` FOREIGN KEY (`product`) REFERENCES `product` (`id`))' in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:42
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 42
+[27-Jul-2018 22:59:15 UTC] PHP Warning:  include(php/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 3
+[27-Jul-2018 22:59:15 UTC] PHP Stack trace:
+[27-Jul-2018 22:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[27-Jul-2018 22:59:15 UTC] PHP Warning:  include(): Failed opening 'php/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 3
+[27-Jul-2018 22:59:15 UTC] PHP Stack trace:
+[27-Jul-2018 22:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[27-Jul-2018 22:59:15 UTC] PHP Warning:  include(php/userFunctions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 4
+[27-Jul-2018 22:59:15 UTC] PHP Stack trace:
+[27-Jul-2018 22:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[27-Jul-2018 22:59:15 UTC] PHP Warning:  include(): Failed opening 'php/userFunctions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 4
+[27-Jul-2018 22:59:15 UTC] PHP Stack trace:
+[27-Jul-2018 22:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[27-Jul-2018 22:59:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 7
+[27-Jul-2018 22:59:15 UTC] PHP Stack trace:
+[27-Jul-2018 22:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:28:55 UTC] PHP Warning:  include(html/BSJQ.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 6
+[28-Jul-2018 00:28:55 UTC] PHP Stack trace:
+[28-Jul-2018 00:28:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:28:55 UTC] PHP Warning:  include(): Failed opening 'html/BSJQ.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 6
+[28-Jul-2018 00:28:55 UTC] PHP Stack trace:
+[28-Jul-2018 00:28:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:28:58 UTC] PHP Warning:  include(html/BSJQ.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 6
+[28-Jul-2018 00:28:58 UTC] PHP Stack trace:
+[28-Jul-2018 00:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:28:58 UTC] PHP Warning:  include(): Failed opening 'html/BSJQ.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 6
+[28-Jul-2018 00:28:58 UTC] PHP Stack trace:
+[28-Jul-2018 00:28:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:40:24 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 45
+[28-Jul-2018 00:40:24 UTC] PHP Stack trace:
+[28-Jul-2018 00:40:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:40:54 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 48
+[28-Jul-2018 00:40:54 UTC] PHP Stack trace:
+[28-Jul-2018 00:40:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:41:11 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 48
+[28-Jul-2018 00:41:11 UTC] PHP Stack trace:
+[28-Jul-2018 00:41:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 00:41:13 UTC] PHP Fatal error:  Unsupported operand types in /home/ubuntu/workspace/CST336-Group-Final/php/cart.php on line 48
+[28-Jul-2018 00:41:13 UTC] PHP Stack trace:
+[28-Jul-2018 00:41:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[28-Jul-2018 21:48:45 UTC] PHP Warning:  include(../html/BSJO.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 18
+[28-Jul-2018 21:48:45 UTC] PHP Stack trace:
+[28-Jul-2018 21:48:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:0
+[28-Jul-2018 21:48:45 UTC] PHP Warning:  include(): Failed opening '../html/BSJO.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php on line 18
+[28-Jul-2018 21:48:45 UTC] PHP Stack trace:
+[28-Jul-2018 21:48:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/updateProduct.php:0
+[29-Jul-2018 22:37:13 UTC] PHP Warning:  PDO::prepare() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 57
+[29-Jul-2018 22:37:13 UTC] PHP Stack trace:
+[29-Jul-2018 22:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php:0
+[29-Jul-2018 22:37:13 UTC] PHP   2. checkout() /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php:15
+[29-Jul-2018 22:37:13 UTC] PHP   3. getUserCurrentInvoice() /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:77
+[29-Jul-2018 22:37:13 UTC] PHP   4. PDO->prepare() /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:57
+[29-Jul-2018 22:37:13 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 58
+[29-Jul-2018 22:37:13 UTC] PHP Stack trace:
+[29-Jul-2018 22:37:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php:0
+[29-Jul-2018 22:37:13 UTC] PHP   2. checkout() /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php:15
+[29-Jul-2018 22:37:13 UTC] PHP   3. getUserCurrentInvoice() /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:77
+[29-Jul-2018 22:37:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('Array', '1', NULL, '1337')' at line 2' in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php(15): checkout()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 86
+[29-Jul-2018 22:39:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('Array', '1', '15', '1337')' at line 2' in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php(15): checkout()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 86
+[29-Jul-2018 22:39:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('1', '1', '15', '1337')' at line 2' in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php(15): checkout()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 86
+[29-Jul-2018 22:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '('1', '1', '15', '1337')' at line 2' in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php(15): checkout()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 86
+[29-Jul-2018 23:11:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:106
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php(106): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php(16): checkout()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 106
+[29-Jul-2018 23:14:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 102
+[29-Jul-2018 23:14:57 UTC] PHP Stack trace:
+[29-Jul-2018 23:14:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php:0
+[29-Jul-2018 23:14:57 UTC] PHP   2. checkout() /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php:16
+[29-Jul-2018 23:14:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2' in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php:110
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php(110): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336-Group-Final/php/checkout.php(16): checkout()
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/userFunctions.php on line 110
+[30-Jul-2018 06:48:29 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/CST336-Group-Final/php/dbConnection.php:2) in /home/ubuntu/workspace/CST336-Group-Final/php/dbConnection.php on line 2
+[30-Jul-2018 06:48:29 UTC] PHP Stack trace:
+[30-Jul-2018 06:48:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:0
+[30-Jul-2018 06:48:29 UTC] PHP   2. include() /home/ubuntu/workspace/CST336-Group-Final/php/cart.php:4
+[02-Aug-2018 01:35:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''All_Users_Cart_Total'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 23
+[02-Aug-2018 01:35:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''All_Users_Cart_Total'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 23
+[02-Aug-2018 01:37:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''All_Users_Cart_Total'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 23
+[02-Aug-2018 01:37:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''All_Users_Cart_Total'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(23): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 23
+[02-Aug-2018 01:38:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''All_Users_Cart_Total'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:38:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''All_Users_Cart_Total'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:39:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Product_Pice_Average'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:40:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Product_Pice_Average'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:40:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Product_Pice_Average'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:40:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Purchase_History'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:40:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Purchase_History'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:44:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\'All_Users_Cart_Total\''' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:44:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\'All_Users_Cart_Total\''' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:45:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Purchase_History'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:48:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:49:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:50:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:50:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:50:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:52:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:52:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:54:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''users'' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 01:55:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMAll_Users_Cart_Total' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[02-Aug-2018 23:06:44 UTC] PHP Fatal error:  Call to undefined function getPurchaseHistory() in /home/ubuntu/workspace/CST336-Group-Final/php/removeRecord.php on line 15
+[02-Aug-2018 23:06:44 UTC] PHP Stack trace:
+[02-Aug-2018 23:06:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/removeRecord.php:0
+[02-Aug-2018 23:07:08 UTC] PHP Fatal error:  Call to undefined function getPurchaseHistory() in /home/ubuntu/workspace/CST336-Group-Final/php/removeRecord.php on line 15
+[02-Aug-2018 23:07:08 UTC] PHP Stack trace:
+[02-Aug-2018 23:07:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/removeRecord.php:0
+[02-Aug-2018 23:07:15 UTC] PHP Fatal error:  Call to undefined function getPurchaseHistory() in /home/ubuntu/workspace/CST336-Group-Final/php/removeRecord.php on line 15
+[02-Aug-2018 23:07:15 UTC] PHP Stack trace:
+[02-Aug-2018 23:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/removeRecord.php:0
+[05-Aug-2018 22:21:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1395 Can not delete from join view 'store.Purchase_History'' in /home/ubuntu/workspace/CST336-Group-Final/php/adminFunctions.php:44
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/adminFunctions.php(44): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/CST336-Group-Final/php/removeRecord.php(21): removePurchaseHistory('6')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/adminFunctions.php on line 44
+[07-Aug-2018 00:19:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTcount(1) as 'Num of Items' FROM Purchase_History group by username, invoic' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[07-Aug-2018 00:19:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECTcount(1)  FROM Purchase_History group by username, invoice' at line 1' in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php(25): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 25
+[07-Aug-2018 00:26:30 UTC] PHP Warning:  Missing argument 3 for printPurchaseHistory(), called in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 33 and defined in /home/ubuntu/workspace/CST336-Group-Final/php/dbConnection.php on line 113
+[07-Aug-2018 00:26:30 UTC] PHP Stack trace:
+[07-Aug-2018 00:26:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:0
+[07-Aug-2018 00:26:30 UTC] PHP   2. printPurchaseHistory() /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:33
+[07-Aug-2018 00:33:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php on line 29
+[07-Aug-2018 00:33:54 UTC] PHP Stack trace:
+[07-Aug-2018 00:33:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336-Group-Final/php/sqlViews.php:0
