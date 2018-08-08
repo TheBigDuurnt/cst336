@@ -1,16 +1,17 @@
 <?php
-
    
     function addCart($userid, $product, $quantity){
         global $conn;
-        $sql = "INSERT INTO cart (id, username, product, quantity) VALUES (NULL, :userid, :product, :quantity)";
+        echo $userid;
+        $sql = "INSERT INTO cart (username, product, quantity) VALUES (:userid, :product, :quantity)";
         $np = array();
         $np[':userid'] = $userid;
         $np[':product'] = $product;
         $np[':quantity'] = $quantity;
-        
+        echo "userFunctions.php: Adding to cart";
         $stmt = $conn->prepare($sql);
         $records = $stmt->execute($np);
+        echo "userFunctions.php: Adding to cart";
         return $records;
     }
     
@@ -25,7 +26,6 @@
         $stmt = $conn->prepare($sql);
         $stmt->execute($np);
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
         $subtotal = 0;
         if($records){
             foreach($records as $record){
@@ -100,7 +100,7 @@
         
         if($cartItems){
             $index = 0;
-            $sql = "INSERT INTO purchaseHistory (invoice, username, product, quantity)
+            $sql = "INSERT INTO purchasehistory (invoice, username, product, quantity)
             VALUES";
             $np['invoice'] = getUserCurrentInvoice($_SESSION['userId'])['invoice'];
             $np['username'] = $_SESSION['userId'];

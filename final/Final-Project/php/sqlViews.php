@@ -22,11 +22,11 @@
     
     // Query View
     if(isset($_GET['customerCartTotal'])){
-        $sql .= " * FROM All_Users_Cart_Total";
+        $sql .= " * FROM all_users_cart_total";
     }else if(isset($_GET['AvgCost'])){
-        $sql .= "* FROM Product_Pice_Average";
+        $sql .= "* FROM product_price_average";
     }else if(isset($_GET['purchaseHistory'])){
-        $sql .= " *, count(1) as 'totalItems', sum(subtotal) as 'total'  FROM Purchase_History group by username, invoice";
+        $sql .= " *, sum(quantity) as 'totalItems', sum(Subtotal) as 'total'  FROM purchase_history group by username, invoice";
     }
   
     // Execute Query
@@ -47,7 +47,7 @@
         foreach($results as $result){
             echo "<span class='field'> Category:</span> ". $result['category'].
                  "<span class='field'> Number of Products:</span> ".$result['Number of Products'],
-                 "<span class='field'> Avg price of Products:</span> $".round($result['AVG Price'],2)
+                 "<span class='field'> Avg price of Products:</span> $".round($result['avg(price)'],2)
                  ."<br/>";   
         }
     }else if(isset($_GET['purchaseHistory'])){
@@ -58,5 +58,4 @@
     //Link to Admin Home Page
     echo "<br/><a href='admin.php'>ADMIN HOME</a><br/>";
     
-
 ?>

@@ -1,5 +1,4 @@
 <?php
-
  function createUser($name, $username, $password){
         global $conn;
         $np = array();
@@ -25,7 +24,7 @@
     
     function getPurchaseHistory(){
         global $conn;
-        $sql = "SELECT * FROM Purchase_History";
+        $sql = "SELECT * FROM purchase_history";
         $stmt = $conn->prepare($sql);
         $stmt->execute();
         $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -34,12 +33,11 @@
     
     function removePurchaseHistory($rmId){
         global $conn;
-        $sql = "DELETE FROM purchaseHistory WHERE id = :phId";
+        $sql = "DELETE FROM purchasehistory WHERE id = :phId";
         $np[':phId'] = $rmId;
         $stmt = $conn->prepare($sql);
         $records = $stmt->execute($np);
         return $records;        
     }
     
-
 ?>

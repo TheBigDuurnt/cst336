@@ -60,7 +60,6 @@
              $stmt = $conn->prepare($sql);
             $stmt->execute($namedParameters);
             $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
             return $records;
         }
     }
@@ -118,7 +117,7 @@
                      "<span class='field'> User:</span> ".$result['username'];
                      
                 if($isGroup){
-                    echo "<span class='field'> Number of Products Purchased:</span>  ".$result['totalItems'].
+                    echo "<span class='field'> Number of Line Items Purchased:</span>  ".$result['totalItems'].
                      "<span class='field'> SubTotal</span>  $".$result['total']."<br/>";    
                 }else{
                     
@@ -131,7 +130,7 @@
                     echo "<form>";
                     echo "<input type='hidden' name='rmId' value='". $result['phId'] ."' />";
                     echo "<input type='submit' name='rmPurchaseHistory' value='Remove' class='btn btn-danger'/>";
-                echo "</form>";    
+                    echo "</form>";    
                 }
             }
         }else{
